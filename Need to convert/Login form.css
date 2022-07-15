@@ -1,0 +1,101 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background:url(reg.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+form {
+margin:auto;
+max-width:300px;
+margin-top:100px;
+text-align:center;
+padding:10px;
+border: 2px solid white ;
+border-radius: 10px;
+}
+form, .imgcontainer{
+	text-align:center;
+	background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+	
+}
+h2{
+	font-family:Garamond,serif;
+	text-transform:uppercase;
+	color:white;
+	text-align:center;
+	font-weight:bolder;
+	font-size:30px;
+}
+input[type=text], input[type=password], input[type=email]{
+  width: 50%;
+  padding: 10px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border-color: #2ecc71;
+  border-radius:24px;
+  box-sizing: border-box;
+}
+a, p{
+	color:white;
+	text-transform:none;
+	cursor:pointer;
+}
+b{
+	color:white;
+}
+h6, span{
+	font-size:15px;
+	margin:5px 0px 0px 0px;
+	color:white;
+	text-transform:none;
+	cursor:pointer;
+}
+button {
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+  border-color: #BAE8E8;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border-radius:20px;
+  cursor: pointer;
+  width: 40%;
+  margin-left:120px;
+  text-align:center;
+  display:block;
+  box-sizing:border-box;
+}
+
+button:hover {
+	background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+color:#FFFFFF;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+img.avatar {
+  width: 40%;
+  height:100px;
+  float:center;
+  border-radius: 60%;
+}
+
+.container {
+  padding: 10px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
